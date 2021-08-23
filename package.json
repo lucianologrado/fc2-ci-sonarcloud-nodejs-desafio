@@ -4,7 +4,14 @@
   "main": "index.js",
   "author": "Luciano Logrado <luciano@aptools.com.br>",
   "license": "MIT",
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "testResultsProcessor": "jest-sonar-reporter"
+  }, 
   "devDependencies": {
-    "jest": "^27.0.6"
+    "jest": "^27.0.6",
+    "jest-sonar-reporter": "^2.0.0"
   }
 }
