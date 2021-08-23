@@ -5,9 +5,10 @@
   "author": "Luciano Logrado <luciano@aptools.com.br>",
   "license": "MIT",
   "scripts": {
-    "test": "jest"
+    "test": "jest --coverage"
   },
   "jest": {
+    "collectCoverage":true,
     "testResultsProcessor": "jest-sonar-reporter"
   }, 
   "devDependencies": {
